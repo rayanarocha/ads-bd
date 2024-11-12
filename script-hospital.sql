@@ -84,4 +84,3 @@ select c.id_consultas, m.nome as medico, c.data_consulta
 from consultas c
 join medicos m on c.medico_id = m.id_medicos
 where c.paciente_id = 1;
-
